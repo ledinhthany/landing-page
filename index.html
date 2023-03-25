@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modile.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/29dbf50279.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="font.css">
+</head>
+<body id="body">
+    <div class="hear" id="hear">
+        <nav>
+            <img src="/anh/logo.png" alt="">
+            <ul>
+                <li><a href="">Trang Chủ</a></li>
+                <li><a href="">Tin Tức</a></li>
+                <li><a href="">Thư Viện</a></li>
+                <li><a href="">Sự Kiện</a></li>
+            </ul>
+            <div class="icon">
+                <a href="dangki.html"><ion-icon name="person"></ion-icon></a>
+                <ion-icon name="bag-handle"></ion-icon></div>
+        </nav>
+    </div>
+    <div class="banner" id="banner">
+        <div class="tin-1" id="mobile-tin-1">
+            <div class="text-1">
+                    <h2 id="conten">DUNK HI RETRO</h1>
+                    <p id="contern2">Let your design shine in satin, keep it classic in canvas or get luxe with leather. No matter what you choose, these AF-1s are all about you. 12 colour choices and an additional Gum option for the sole mean your design is destined to be one of a kind, just like you.</p>
+                <a href="#"></a>
+                    <h1 class="butnow">BUY NOW </h1>
+                    <h1 class="butnow2">BUY NOW <i class="fa-sharp fa-solid fa-arrow-right"></i></h1>
+                </a>
+            </div>
+            <h1 id="gia">$178.65 </h1>
+              
+        </div>
+        <div class="tin-1" id="eror">
+            <div class="air">
+                <h1 id="a">A</h1>
+                <h1 id="i">I</h1>
+                <h1 id="r">R</h1></div>
+            <img id="giay" src="1.1.png" alt="NIKE">
+        </div>
+        <div class="tin-1" id="bao">
+            <button onclick="giay(1); document.getElementById('banner').style.backgroundColor = '#bbd0f0'; document.getElementById('body').style.background = '#bbd0f0' " ><img id="vidu" src="1.1.png" alt=""></button>
+            <button onclick="giay(2); document.getElementById('banner').style.backgroundColor = '#FFDAB1'; document.getElementById('body').style.background = '#FFDAB1' "><img id="vidu" src="/nike4/1.png" alt=""></button>
+            <button onclick="giay(3); document.getElementById('banner').style.backgroundColor = '#FFBDBD'; document.getElementById('body').style.backgroundr = '#FFBDBD' "><img id="vidu" src="/nike3/1.png" alt=""></button>
+            <button onclick="giay(4); document.getElementById('banner').style.backgroundColor = '#C5EEDE'; document.getElementById('body').style.background = '#C5EEDE' "><img id="vidu" src="/nike5/1.png" alt=""></button>
+            <button onclick="giay(5); document.getElementById('banner').style.backgroundColor = '#fff';; document.getElementById('body').style.background = 'linear-gradient(to bottom, #FFFFFF, #FFC0CB, #FF69B4)'; document.getElementById('body').style.backgroundColor = '#bbd0f0' "><img id="vidu" src="/nike6/1 (2).png" alt=""></button>
+        </div>
+    </div>
+     
+    <div class="thong-tin-anh" id="thong-tin-anh" >
+        <div class="thong-tin">
+        <div class="slideshow-container">
+            <div class="slideshow-slide">
+              <img id="giay1" src="/nike/1.png">
+            </div>
+            <div class="slideshow-slide">
+              <img id="giay2" src="/nike/2.png">
+            </div>
+            <div class="slideshow-slide">
+              <img id="giay3" src="/nike/3.png">
+            </div>
+            <div class="slideshow-slide">
+              <img id="giay4" src="/nike/4.png">
+            </div>
+            <div class="slideshow-slide">
+              <img id="giay5" src="/nike/5.png">
+            </div>
+            <div class="slideshow-slide">
+              <img id="giay6" src="/nike/6.png">
+            </div>
+            
+            <a class="prev" onclick="changeSlide(-1)">❮</a>
+            <a class="next" onclick="changeSlide(1)">❯</a>
+        </div>
+        <div class="thumbnails">
+            <div class="thumbnail">
+                <img id="giay7" src="/nike/1.png">
+            </div>
+
+            <div class="thumbnail">
+                <img id="giay8" src="/nike/2.png">
+            </div>
+
+            <div class="thumbnail">
+                <img id="giay9" src="/nike/3.png">
+            </div>
+
+            <div class="thumbnail">
+                <img id="giay10" src="/nike/4.png">
+            </div>
+
+            <div class="thumbnail">
+                <img id="giay11" src="/nike/5.png">
+            </div>
+
+            <div class="thumbnail">
+                <img id="giay12" src="/nike/6.png">
+            </div>
+            </div>
+        </div>
+        <div class="thong-tin">
+            <h1 id="thong-tin-h1">Air Force 1 Mid By You</h1>
+            <h1 id="thong-tin-h2">Air Force 1</h1>
+
+            <!-- <div class="size-selector">
+                <h3>Select Size</h3>
+                <div class="size-buttons">
+                  <button class="size-btn">30</button>
+                  <button class="size-btn">31</button>
+                  <button class="size-btn">32</button>
+                  <button class="size-btn">33</button>
+                  <button class="size-btn">34</button>
+                  <button class="size-btn">35</button>
+                  <button class="size-btn">36</button>
+                  <button class="size-btn">37</button>
+                  <button class="size-btn">38</button>
+                  <button class="size-btn">39</button>
+                  <button class="size-btn">40</button>
+                  <button class="size-btn">41</button>
+                  <button class="size-btn">42</button>
+                  <button class="size-btn">43</button>
+                  <button class="size-btn">44</button>
+                  <button class="size-btn">45</button>
+                  <button class="size-btn">46</button>
+                  <button class="size-btn">47</button>
+                  <button class="size-btn">48</button>
+                  <button class="size-btn">49</button>
+                  <button class="size-btn">50</button>
+                </div>
+              </div>
+              <div class="size-mobile">
+                <select name="size">
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                    <option value="32">32</option>
+                    <option value="33">33</option>
+                    <option value="34">34</option>
+                    <option value="35">35</option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                    <option value="44">44</option>
+                    <option value="45">45</option>
+                    <option value="46">46</option>
+                    <option value="47">47</option>
+                    <option value="48">48</option>
+                    <option value="49">49</option>
+                    <option value="50">50</option>
+                  </select>
+              </div> -->
+        </div>
+        <div class="thong-tin">
+            <h1>WHAT'S YOUR BASE</h1>
+            <p>Satin, canvas or leather—choose your favourite or mix it up with all 3.</p>
+            <h1>GET COLOURFUL</h1>
+            <p>Go crazy colourful or keep it monochromatic with 12 colours inspired 
+            by classic Air Force 1s and the athletes who made them popular.</p>
+            <h1>MAKE IT PERSONAL</h1>
+            <p>Add up to 3 characters on the heel—you can even mix it up with 
+            different messages on the left and the right.</p>
+            <h1>MORE BENEFITS</h1>
+            <li>Stitched overlays on upper add heritage style, durability and support.</li>
+            <li>Originally designed for performance hoops, Nike Air cushioning adds 
+                lightweight, all-day comfort.</li>
+            <li>Padded collar feels soft and comfortable.</li>
+        </div>
+    </div>
+
+    <div class="voucher">
+        <div class="SPECIAL"><h1>SPECIAL VOUCHER</h1></div>
+        <div class="nen-voucher">
+            <img src="1.jpg" alt="">
+            
+            <div class="anh-voucher">
+                <img src="voucher.png" alt="">
+            </div>
+        </div>
+    </div>
+   <div class="mau-giay">
+         <div class="anh-giay" id="mau1" ><img src="/nike/4.jfif" alt=""></div>
+         <div class="anh-giay" id="mau2" ><img src="/nike/5.jfif" alt=""></div>
+         <div class="anh-giay" id="mau3" ><img src="/nike/3.jfif" alt=""></div>
+         <div class="anh-giay" id="mau4" ><img src="/nike/2.jfif" alt=""></div>
+         <div class="anh-giay" id="mau5" ><img src="/nike/6.jfif" alt=""></div>
+    </div> 
+
+    <div class="giay-color">
+            <img src="/nike2/3.png" alt="Image">
+            <div class="buttons">
+                <button data-src="/nike2/3.png" onclick="mau(1)" style="background-color: #808EA9;" >1</button>
+                <button data-src="/nike5/3.png" onclick="mau(2)" style="background-color: #1D573F;" >2</button>
+                <button data-src="/nike3/3.png" onclick="mau(3)" style="background-color: #AE3A3B;" >3</button>
+                <button data-src="/nike4/5.png" onclick="mau(4)" style="background-color: #D08637;" >4</button>
+                <button data-src="/nike6/3.png" onclick="mau(5)" style="background-color: #D08637;" >5</button>
+
+            </div>  
+    </div>
+
+
+<!-- 
+
+    <div class="thong-tin-feed">
+        <h1 id="feed">FEEDBACK OF</h1>
+        <h1 id="cus">CUSTOMER</h1>
+    </div>
+
+    <div class="feedback-wrapper">
+        
+        <div class="feedback">
+          <div class="image">
+            <img src="/feedback/1.png" alt="Avatar 1">
+          </div>
+          <div class="info">
+            <h3>Feedback 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vestibulum lorem eget dui fermentum laoreet. Integer quis massa in tortor sodales molestie id id nisi.</p>
+            <div class="rating">
+              <div class="stars-5"></div>
+            </div>
+          </div>
+        </div>
+        <div class="feedback">
+          <div class="image">
+            <img src="/feedback/2.png" alt="Avatar 2">
+          </div>
+          <div class="info">
+            <h3>Feedback 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vestibulum lorem eget dui fermentum laoreet. Integer quis massa in tortor sodales molestie id id nisi.</p>
+            <div class="rating">
+              <div class="stars-5"></div>
+            </div>
+          </div>
+        </div>
+        <div class="feedback">
+          <div class="image">
+            <img src="/feedback/3.png" alt="Avatar 3">
+          </div>
+          <div class="info">
+            <h3>Feedback 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vestibulum lorem eget dui fermentum laoreet. Integer quis massa in tortor sodales molestie id id nisi.</p>
+            <div class="rating">
+              <div class="stars-5"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+       -->
+    
+      
+
+
+  <script src="app.js"></script>
+</body>
+</html>
